@@ -70,5 +70,3 @@ PRODUCT_PACKAGES := \
     libnvwsi \
     libstagefrighthw \
     libtf_crypto_sst
-
-PRODUCT_PACKAGES += keystore.grouper
