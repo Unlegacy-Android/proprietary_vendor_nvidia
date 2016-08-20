@@ -1,7 +1,6 @@
 VENDOR_FOLDER := vendor/nvidia/grouper
 
 PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/proprietary/vendor/bin/tf_daemon:system/vendor/bin/tf_daemon \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_00001000.bin:system/vendor/firmware/nvavp_os_00001000.bin \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_0ff00000.bin:system/vendor/firmware/nvavp_os_0ff00000.bin \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_e0000000.bin:system/vendor//firmware/nvavp_os_e0000000.bin \
@@ -56,5 +55,4 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwinsys.so:system/vendor/lib/libnvwinsys.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libtf_crypto_sst.so:system/vendor/lib/libtf_crypto_sst.so
+	$(VENDOR_FOLDER)/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so
