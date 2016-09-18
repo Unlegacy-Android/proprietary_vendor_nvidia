@@ -54,5 +54,4 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvsm.so:system/vendor/lib/libnvsm.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwinsys.so:system/vendor/lib/libnvwinsys.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so
+	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so
