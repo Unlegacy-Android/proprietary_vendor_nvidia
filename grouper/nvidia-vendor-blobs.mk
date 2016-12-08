@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_query.so:system/vendor/lib/libnvodm_query.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvrm_graphics.so:system/vendor/lib/libnvrm_graphics.so \
