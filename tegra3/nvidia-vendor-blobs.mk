@@ -1,4 +1,4 @@
-VENDOR_FOLDER := vendor/nvidia/grouper
+VENDOR_FOLDER := vendor/nvidia/tegra3
 
 PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_00001000.bin:system/vendor/firmware/nvavp_os_00001000.bin \
@@ -6,11 +6,10 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_e0000000.bin:system/vendor//firmware/nvavp_os_e0000000.bin \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_eff00000.bin:system/vendor/firmware/nvavp_os_eff00000.bin \
 	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_vid_ucode_alt.bin:system/vendor/firmware/nvavp_vid_ucode_alt.bin \
-	$(VENDOR_FOLDER)/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
-	$(VENDOR_FOLDER)/proprietary/etc/nvram.txt:system/etc/nvram.txt \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libEGL_tegra.so:system/vendor/lib/egl/libEGL_tegra.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:system/vendor/lib/egl/libGLESv1_CM_tegra.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libGLESv2_tegra.so:system/vendor/lib/egl/libGLESv2_tegra.so \
+	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/camera.tegra3.so:system/vendor/lib/hw/camera.tegra3.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/gralloc.tegra3.so:system/vendor/lib/hw/gralloc.tegra3.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/hwcomposer.tegra3.so:system/vendor/lib/hw/hwcomposer.tegra3.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
