@@ -41,9 +41,7 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmmlite_video.so:system/vendor/lib/libnvmmlite_video.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_dtvtuner.so:system/vendor/lib/libnvodm_dtvtuner.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_hdmi.so:system/vendor/lib/libnvodm_hdmi.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_imager.so:system/vendor/lib/libnvodm_imager.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_misc.so:system/vendor/lib/libnvodm_misc.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_query.so:system/vendor/lib/libnvodm_query.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
