@@ -1,56 +1,70 @@
+# Copyright (C) 2017 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 VENDOR_FOLDER := vendor/nvidia/tegra3
 
-PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_00001000.bin:system/vendor/firmware/nvavp_os_00001000.bin \
-	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_0ff00000.bin:system/vendor/firmware/nvavp_os_0ff00000.bin \
-	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_e0000000.bin:system/vendor//firmware/nvavp_os_e0000000.bin \
-	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_os_eff00000.bin:system/vendor/firmware/nvavp_os_eff00000.bin \
-	$(VENDOR_FOLDER)/proprietary/vendor/firmware/nvavp_vid_ucode_alt.bin:system/vendor/firmware/nvavp_vid_ucode_alt.bin \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libEGL_tegra.so:system/vendor/lib/egl/libEGL_tegra.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:system/vendor/lib/egl/libGLESv1_CM_tegra.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libGLESv2_tegra.so:system/vendor/lib/egl/libGLESv2_tegra.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/camera.tegra3.so:system/vendor/lib/hw/camera.tegra3.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/gralloc.tegra3.so:system/vendor/lib/hw/gralloc.tegra3.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/hwcomposer.tegra3.so:system/vendor/lib/hw/hwcomposer.tegra3.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libcgdrv.so:system/vendor/lib/libcgdrv.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvasfparserhal.so:system/vendor/lib/libnvasfparserhal.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvaviparserhal.so:system/vendor/lib/libnvaviparserhal.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvcamerahdr.so:system/vendor/lib/libnvcamerahdr.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvddk_2d.so:system/vendor/lib/libnvddk_2d.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvddk_2d_v2.so:system/vendor/lib/libnvddk_2d_v2.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvdispmgr_d.so:system/vendor/lib/libnvdispmgr_d.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm.so:system/vendor/lib/libnvmm.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_audio.so:system/vendor/lib/libnvmm_audio.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_camera.so:system/vendor/lib/libnvmm_camera.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_contentpipe.so:system/vendor/lib/libnvmm_contentpipe.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_image.so:system/vendor/lib/libnvmm_image.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_manager.so:system/vendor/lib/libnvmm_manager.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_misc.so:system/vendor/lib/libnvmm_misc.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_parser.so:system/vendor/lib/libnvmm_parser.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_service.so:system/vendor/lib/libnvmm_service.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_utils.so:system/vendor/lib/libnvmm_utils.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_video.so:system/vendor/lib/libnvmm_video.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmm_writer.so:system/vendor/lib/libnvmm_writer.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmmlite.so:system/vendor/lib/libnvmmlite.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmmlite_audio.so:system/vendor/lib/libnvmmlite_audio.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmmlite_image.so:system/vendor/lib/libnvmmlite_image.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmmlite_utils.so:system/vendor/lib/libnvmmlite_utils.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvmmlite_video.so:system/vendor/lib/libnvmmlite_video.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_dtvtuner.so:system/vendor/lib/libnvodm_dtvtuner.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_hdmi.so:system/vendor/lib/libnvodm_hdmi.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_imager.so:system/vendor/lib/libnvodm_imager.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_misc.so:system/vendor/lib/libnvodm_misc.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvodm_query.so:system/vendor/lib/libnvodm_query.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvrm_graphics.so:system/vendor/lib/libnvrm_graphics.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvsm.so:system/vendor/lib/libnvsm.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwinsys.so:system/vendor/lib/libnvwinsys.so \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so
+PRODUCT_PACKAGES := \
+    nvavp_os_00001000 \
+    nvavp_os_0ff00000 \
+    nvavp_os_e0000000 \
+    nvavp_os_eff00000 \
+    nvavp_vid_ucode_alt \
+    libEGL_tegra \
+    libGLESv1_CM_tegra \
+    libGLESv2_tegra \
+    camera.tegra3 \
+    gralloc.tegra3 \
+    hwcomposer.tegra3 \
+    libardrv_dynamic \
+    libcgdrv \
+    libnvapputil \
+    libnvasfparserhal \
+    libnvaviparserhal \
+    libnvavp \
+    libnvcamerahdr \
+    libnvddk_2d \
+    libnvddk_2d_v2 \
+    libnvdispmgr_d \
+    libnvmm \
+    libnvmm_audio \
+    libnvmm_camera \
+    libnvmm_contentpipe \
+    libnvmm_image \
+    libnvmm_manager \
+    libnvmm_misc \
+    libnvmm_parser \
+    libnvmm_service \
+    libnvmm_utils \
+    libnvmm_video \
+    libnvmm_writer \
+    libnvmmlite \
+    libnvmmlite_audio \
+    libnvmmlite_image \
+    libnvmmlite_utils \
+    libnvmmlite_video \
+    libnvodm_dtvtuner \
+    libnvodm_hdmi \
+    libnvodm_imager \
+    libnvodm_misc \
+    libnvodm_query \
+    libnvomx \
+    libnvomxilclient \
+    libnvos \
+    libnvparser \
+    libnvrm \
+    libnvrm_graphics \
+    libnvsm \
+    libnvtvmr \
+    libnvwinsys \
+    libnvwsi
