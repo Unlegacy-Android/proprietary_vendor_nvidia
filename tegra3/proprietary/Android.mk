@@ -528,7 +528,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
 
-ifeq ($(filter kai grouper tilapia a510 a700 picasso2, $(TARGET_DEVICE)),)
+ifeq ($(filter a2109 grouper tilapia a510 a700 picasso2, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnvodm_imager
