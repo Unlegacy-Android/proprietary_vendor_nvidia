@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "44576cb4_84e846b8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2017-04-14T15:04:22Z",
+      "side": 1,
+      "message": "They\u0027re regular makefiles; maybe something like \"Convert blob copying to modules\"?",
+      "range": {
+        "startLine": 7,
+        "startChar": 8,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "8c23c18ec16109796917814088995a8f0a18fc4c",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}
