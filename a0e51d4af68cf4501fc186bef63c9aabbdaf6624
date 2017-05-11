@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03333fdb_54657863",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2017-05-11T22:16:39Z",
+      "side": 1,
+      "message": "We could emphasize here that it wasn\u0027t used at all before Nougat, which is the reason people never noticed these issues.",
+      "revId": "a0e51d4af68cf4501fc186bef63c9aabbdaf6624",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}
