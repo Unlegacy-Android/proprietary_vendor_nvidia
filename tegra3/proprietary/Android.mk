@@ -528,6 +528,16 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libshim_cutil_atomic
+LOCAL_SRC_FILES := vendor/lib/libshim_cutil_atomic.so
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := ua
+include $(BUILD_PREBUILT)
+
 ifeq ($(filter a2109 grouper tilapia a510 a700 picasso2, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)

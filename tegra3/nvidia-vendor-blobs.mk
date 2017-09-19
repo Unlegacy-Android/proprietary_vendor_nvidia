@@ -67,4 +67,5 @@ PRODUCT_PACKAGES := \
     libnvsm \
     libnvtvmr \
     libnvwinsys \
-    libnvwsi
+    libnvwsi \
+    libshim_cutil_atomic
