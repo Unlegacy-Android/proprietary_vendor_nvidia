@@ -108,6 +108,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
 
+ifneq ($(TEGRA3_BUILD_GRALLOC),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := gralloc.tegra3
 LOCAL_SRC_FILES := vendor/lib/hw/gralloc.tegra3.so
@@ -117,7 +118,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib/hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
+endif
 
+ifneq ($(TEGRA3_BUILD_HWCOMPOSER),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := hwcomposer.tegra3
 LOCAL_SRC_FILES := vendor/lib/hw/hwcomposer.tegra3.so
@@ -127,6 +130,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib/hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libardrv_dynamic
