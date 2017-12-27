@@ -528,28 +528,4 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
 
-ifeq ($(filter a2109 grouper tilapia a510 a700 picasso2, $(TARGET_DEVICE)),)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libnvodm_imager
-LOCAL_SRC_FILES := vendor/lib/libnvodm_imager.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libnvodm_query
-LOCAL_SRC_FILES := vendor/lib/libnvodm_query.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := nvidia
-include $(BUILD_PREBUILT)
-
-endif
-
 endif
