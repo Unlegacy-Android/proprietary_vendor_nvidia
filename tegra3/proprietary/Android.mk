@@ -101,7 +101,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := camera.tegra3
 LOCAL_SRC_FILES := vendor/lib/hw/camera.tegra3.so
-LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_SUFFIX := .so.bak
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib/hw
 LOCAL_MODULE_TAGS := optional
