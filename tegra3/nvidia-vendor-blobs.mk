@@ -23,7 +23,6 @@ PRODUCT_PACKAGES := \
     libEGL_tegra \
     libGLESv1_CM_tegra \
     libGLESv2_tegra \
-    camera.tegra3 \
     gralloc.tegra3 \
     hwcomposer.tegra3 \
     libardrv_dynamic \
